@@ -739,7 +739,7 @@ export default function HomeScreen() {
       
         {/* Recipes List Section */}
         <View testID="foodList">
-          <Recipes 
+          <FoodItems 
             foods={filteredfoods} 
             categories={categories} 
           />
